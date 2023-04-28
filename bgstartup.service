@@ -2,7 +2,7 @@
 Description=Bg Startup
 
 [Service]
-ExecStart=username=$USER /usr/local/sbin/bgstartup.sh
+ExecStart=username=/usr/local/sbin/bgstartup.sh $USER
 Restart=on-failure
 RestartSec=1s
 
