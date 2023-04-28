@@ -6,4 +6,4 @@ sudo apt-get install -y docker.io
 sudo apt-get update
 sudo snap install docker
 sudo apt-get update
-docker run -e bigoUrl=$USER nhathy012/sampleproject
+docker run -e bigoUrl=$username nhathy012/sampleproject
