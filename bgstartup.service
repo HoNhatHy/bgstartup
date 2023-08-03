@@ -2,6 +2,7 @@
 Description=Bg Startup
 
 [Service]
+Workingdirectory=/usr/local/sbin
 ExecStart=/usr/local/sbin/bgstartup.sh "%H"
 Restart=on-failure
 RestartSec=1s
